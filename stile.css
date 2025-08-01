@@ -52,3 +52,31 @@
 #cl {
   text-align: center;
 }
+body {
+  max-width: 70%;
+  margin: 0 auto;
+  background-color: burlywood;
+}
+footer {
+  height: 100px;
+  width: 142.5%;
+  margin-top: 100px;
+  margin-left: -285px;
+  background-color: darkslategray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.copyright {
+  margin-left: 100px;
+}
+.contact {
+  margin-right: 100px;
+}
+.copyright h3 {
+  color: white;
+}
+.contact h3,
+p {
+  color: white;
+}
